@@ -2,7 +2,7 @@
 
 ### Modifications
 
-* Added the flag for a fully static build
+* Added the flag in cmake for a fully static build
 
 Mirror `AngelScript` version `2.36.1`.
 

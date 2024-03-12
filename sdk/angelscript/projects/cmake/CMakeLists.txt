@@ -2,6 +2,11 @@ cmake_minimum_required(VERSION 3.5)
 
 project(angelscript)
 
+option(FULLY_STATIC_BUILD "Build a fully static library" ON)
+if (FULLY_STATIC_BUILD)
+    add_link_options(-static)
+endif()    
+
 option(BUILD_SHARED_LIBS "Build shared library" OFF)
 option(AS_NO_EXCEPTIONS "Disable exception handling in script context" OFF)
 

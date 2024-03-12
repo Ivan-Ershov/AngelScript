@@ -1,6 +1,6 @@
-###AngelScript Mirror
+### AngelScript Mirror
 
-##Modifications
+## Modifications
 
 * Added the flag for a fully static build
 
